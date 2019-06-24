@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 /**
  * Quick Union Data
+ * 
  */
 public class QuickUnion {
 	private int[] id;

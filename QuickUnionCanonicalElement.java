@@ -36,13 +36,8 @@ public class QuickUnionCanonicalElement {
     }
     
     public void find(int x) {
-        // int parent = id[x];
-        // int[] elements = new int[];
         int maxElement = x;
-        // System.out.print("---- find(" + x + ") = ");
-        // System.out.println(root(id[x]));
         for(int i = 0; i < id.length; i++) {
-            
             if (this.connected(i, x) && i > x) {
                 maxElement = i;
             }
@@ -50,7 +45,6 @@ public class QuickUnionCanonicalElement {
 
         System.out.print("---- find(" + x + ") = ");
         System.out.println(maxElement);
-
     }
 
 	public void union(int p, int q) {

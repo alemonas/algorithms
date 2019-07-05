@@ -13,10 +13,8 @@ public class PercolationMatrix {
         this.size = N;
         this.wqupcSize = (N*N)+2;
         this.wqupc = new WQUPC(wqupcSize);
-        this.setDefaults();
         m = new int[N][N];
-        
-        // m2d = new int[N*N]
+
         for (int i = 0 ; i < N ; i++) {
             for (int j = 0 ; j < N ; j++) {
                 if (Math.random() < 0.5) {
@@ -28,24 +26,6 @@ public class PercolationMatrix {
                 }
             }
         }
-
-        // this.setOpenSite(4, 4);
-
-        // for (int k = 0 ; k < m2d.length; k++) {
-        //     m2d[k] = 0;
-        // }
-    }
-
-    private void setDefaults() {
-        // this.wqupc.union(0, 1);
-        // this.wqupc.union(0, 2);
-        // this.wqupc.union(0, 3);
-        // this.wqupc.union(0, 4);
-
-        // this.wqupc.union(17, 16);
-        // this.wqupc.union(17, 15);
-        // this.wqupc.union(17, 14);
-        // this.wqupc.union(17, 13);
     }
 
     private int getIndexFromMatrixToArray(int x, int y) {
@@ -114,10 +94,18 @@ public class PercolationMatrix {
         int N = this.m.length;
         for (int i = 0 ; i < N ; i++) {
             for (int j = 0 ; j < N ; j++) {
-                System.out.print(this.m[i][j] + " ");
+                if (this.m[i][j] == 1) {
+                    System.out.print((char)27 + "[32m" + this.m[i][j] + " ");
+                } else {
+                    System.out.print((char)27 + "[33m" + this.m[i][j] + " ");
+                }
             }
             System.out.println("");
         }
         System.out.println("-");
+    }
+
+    public boolean isPercolated() {
+        return this.wqupc.connected(0, (this.wqupcSize -1));
     }
 }

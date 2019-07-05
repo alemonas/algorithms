@@ -97,7 +97,7 @@ public class PercolationMatrix {
                 if (this.m[i][j] == 1) {
                     System.out.print((char)27 + "[32m" + this.m[i][j] + " ");
                 } else {
-                    System.out.print((char)27 + "[33m" + this.m[i][j] + " ");
+                    System.out.print((char)27 + "[37m" + this.m[i][j] + " ");
                 }
             }
             System.out.println("");

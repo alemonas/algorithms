@@ -8,7 +8,11 @@ import java.util.Stack;
 public class PolishNotation {
     public static void main(String[] args) {
         PolishNotation pn = new PolishNotation();
-        String s = new String("74,70-2*");
+        String s = new String("5,9,2*+");
+        // s = "1,2*3+";
+        // s = "1,2+3*";
+        // s = "5,9,2*+";
+        // s = "1,2*3,4*+";
         Stack<Integer> stack = new Stack<Integer>();
         char[] c = s.toCharArray();
         int x = 0;
@@ -19,7 +23,7 @@ public class PolishNotation {
         int currentNumber = 0;
 
         for (int i = 0 ; i < c.length ; i++) {
-            if (c[i] == ',' || pn.isOperand(c[i])) {
+            if ((c[i] == ',' || pn.isOperand(c[i]) && currentString != "")) {
                 currentNumber = Integer.parseInt(currentString);
                 stack.push(currentNumber);
                 currentString = "";

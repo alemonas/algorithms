@@ -2,7 +2,7 @@ package percolation;
 
 import java.util.Arrays;
 /**
- * WeightedQuickUnion
+ * Weighted Quick Union with path compression
  * Data Structure
  *  - Same as QuickUnion, but maintain extra array sz[i] 
  *    to count number of objexts in the tree rooted at i. 

@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - problema",
+            "request": "launch",
+            "mainClass": "problema",
+            "projectName": "asciiaddition_acae5cfe"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "asciiaddition_acae5cfe"
+        }
+    ]
+}

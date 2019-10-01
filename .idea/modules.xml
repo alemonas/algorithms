@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MostCommonWord/MostCommonWord.iml" filepath="$PROJECT_DIR$/MostCommonWord/MostCommonWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PartitionLabels/PartitionLabels.iml" filepath="$PROJECT_DIR$/PartitionLabels/PartitionLabels.iml" />
       <module fileurl="file://$PROJECT_DIR$/QueueOfStrings/QueueOfStrings.iml" filepath="$PROJECT_DIR$/QueueOfStrings/QueueOfStrings.iml" />
       <module fileurl="file://$PROJECT_DIR$/StackOfStrings/StackOfStrings.iml" filepath="$PROJECT_DIR$/StackOfStrings/StackOfStrings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/MostCommonWord/MostCommonWord.iml" filepath="$PROJECT_DIR$/MostCommonWord/MostCommonWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PercolationExample/PercolationExample.iml" filepath="$PROJECT_DIR$/PercolationExample/PercolationExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/QueueOfStrings/QueueOfStrings.iml" filepath="$PROJECT_DIR$/QueueOfStrings/QueueOfStrings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/StackOfStrings/StackOfStrings.iml" filepath="$PROJECT_DIR$/StackOfStrings/StackOfStrings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms.iml" filepath="$PROJECT_DIR$/algorithms.iml" />

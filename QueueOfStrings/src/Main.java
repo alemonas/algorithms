@@ -1,3 +1,5 @@
+package QueueOfStrings.src;
+
 public class Main {
     public static void main(String[] args) {
         LinkedQueueOfStrings queue = new LinkedQueueOfStrings();

@@ -1,3 +1,5 @@
+package PercolationExample.src;
+
 public class Main {
     public static void main(String[] args) {
         int size = 4;

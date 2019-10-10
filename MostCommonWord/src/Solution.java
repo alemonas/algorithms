@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package MostCommonWord.src;
+
 import java.util.HashMap;
 import java.util.HashSet;
 

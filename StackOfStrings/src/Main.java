@@ -1,3 +1,5 @@
+package StackOfStrings.src;
+
 public class Main {
     public static void main(String[] args) {
         LinkedStackOfStrings stack = new LinkedStackOfStrings();

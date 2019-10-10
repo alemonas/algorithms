@@ -1,3 +1,5 @@
+package PercolationExample.src;
+
 import java.util.Arrays;
 /**
  * Weighted Quick Union with path compression

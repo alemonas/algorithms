@@ -1,3 +1,5 @@
+package StackOfStrings.src;
+
 public class LinkedStackOfStrings {
     private Node first = null;
 

@@ -1,3 +1,5 @@
+package PercolationExample.src;
+
 public class PercolationProblem {
     private int[][] m;
     private int size;

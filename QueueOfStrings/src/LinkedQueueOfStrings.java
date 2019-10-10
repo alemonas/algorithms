@@ -1,3 +1,5 @@
+package QueueOfStrings.src;
+
 public class LinkedQueueOfStrings {
 
     private Node first, last;

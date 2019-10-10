@@ -1,3 +1,5 @@
+package StackOfStrings.src;
+
 // Stack: Array implementation
 public class FixedCapacityStackOfStrings {
     private String[] s;

@@ -1,3 +1,6 @@
+package BinarySearch.src;
+
+
 public class BinarySearch {
     private int[] a;
 
